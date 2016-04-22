@@ -12,4 +12,4 @@ services:
     volumes:
       - /opt/license-server/data:/jrebel/license-server/data
     image:
-      borgeorgiev/docker-jrebel-license-server:latest
+      sgfinans/jrebel-license-server:latest
