@@ -1,0 +1,15 @@
+
+version: '2'
+services:
+  jrebellic:
+    build:
+      context: .
+    ports:
+      - "9000:9000"
+
+    mac_address: 00:67:45:bd:32:65 #Specify a mac address so you won't have to reactivate each time the container is restarted
+
+    volumes:
+      - /opt/license-server/data:/jrebel/license-server/data
+    image:
+      sgfinans/jrebel-license-server:latest

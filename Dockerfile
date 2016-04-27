@@ -2,7 +2,7 @@ FROM java:7
 
 MAINTAINER SG Finans <frontutvikling@sgfinans.no>
 
-ENV VERSION="3.1.2"
+ENV VERSION="3.1.8"
 RUN mkdir /jrebel
 
 RUN wget -O /tmp/license-server.zip -q "http://dl.zeroturnaround.com/license-server/license-server-${VERSION}.zip"
