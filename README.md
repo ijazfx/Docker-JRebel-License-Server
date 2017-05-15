@@ -1,4 +1,4 @@
-# Docker-JRebel-License-Server
+# jrebel-license-server
 Dockerimage for running a JRebel License Server
 
 ## Usage
