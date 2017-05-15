@@ -1,4 +1,4 @@
-FROM java:7
+FROM openjdk:8u121-jre
 
 MAINTAINER SG Finans <frontutvikling@sgfinans.no>
 
