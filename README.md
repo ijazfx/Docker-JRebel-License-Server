@@ -8,7 +8,7 @@ Be sure you specify the mac address. This can me the same as your physical netwo
 
 Follow the activation procedures http://zeroturnaround.com/software/license-server/quick-start/#!/activation
 
-Based on official java:7 image
+Based on java8 image
 
 ## Using docker compose
 
